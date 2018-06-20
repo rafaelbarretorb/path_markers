@@ -1,0 +1,6 @@
+<launch>
+    <!-- path launch file -->
+    <!-- roslaunch path_markers path.launch -->
+    <node pkg="path_markers" type="rrt_pub.py" name="path_publisher"  output="screen">
+    </node>
+</launch>
